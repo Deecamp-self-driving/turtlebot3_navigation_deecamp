@@ -7,7 +7,7 @@ project(turtlebot3_navigation_deecamp)
 ################################################################################
 # Find catkin packages and libraries for catkin and system dependencies
 ################################################################################
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS)
 
 ################################################################################
 # Setup for python modules and scripts

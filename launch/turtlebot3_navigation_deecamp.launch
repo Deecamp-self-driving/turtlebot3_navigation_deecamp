@@ -27,5 +27,8 @@
   <group if="$(arg open_rviz)"> 
     <node pkg="rviz" type="rviz" name="rviz" required="true"
           args="-d $(find turtlebot3_navigation_deecamp)/rviz/turtlebot3_navigation.rviz"/>
+
+  <!--qt-->
+  <node pkg="qt_app" type="qt_app_node" name="qt_app_node"/>
   </group>
 </launch>
